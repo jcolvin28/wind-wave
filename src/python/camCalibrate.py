@@ -146,11 +146,3 @@ for i in range(1, calimages + 1):
     cv2.waitKey(0)
     
 cv2.destroyAllWindows()
-
-########################################################################
-# These are needed on some systems to insure proper closing of windows #
-########################################################################
-#cv2.waitKey(1)
-#cv2.waitKey(1)
-#cv2.waitKey(1)
-#cv2.waitKey(1)
