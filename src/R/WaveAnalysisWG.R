@@ -1,3 +1,8 @@
+###########################################
+#  Wave Analysis from Raw Wave Gauge Data #
+#       Jeff Colvin, September 2017       #
+#          Updated July 2020              #
+###########################################
 
 # timestack label
 tslabel <- 'hm1'
@@ -66,8 +71,7 @@ Hc <- mean(H)
 Tm <- mean(T)
 
 h <- H[order(H)]
-tt <- T[order(H)]          # sig period calc
-#tt <- T[order(T)]          # sig period calc
+tt <- T[order(T)]          # sig period calc
 n <- round((m-1)/3)
 h <- h[(2*(n+1)):(m-1)]
 tt <- tt[(2*(n+1)):(m-1)]  # sig period calc
