@@ -1,3 +1,8 @@
+###########################################
+#   Wave Analysis from Timestack Data     #
+#       Jeff Colvin, September 2017       #
+#          Updated July 2020              #
+###########################################
 
 # timestack label
 tslabel <- 'hm1'
@@ -8,7 +13,7 @@ wavedata <- read.csv(file=filename, header=TRUE, sep=" ")
 
 # water level vector
 water <- wavedata$value / 3.57 ### experimental correction factor
-
+                               ### needs to be determined for each timestack
 # time vector
 freq <- 60
 timelength <- length(water)/freq
