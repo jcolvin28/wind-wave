@@ -26,7 +26,7 @@ import cv2
 vidfile = input("Name of source video: ")
 
 # column to strip out of images to create timestack
-col = int(input("Enter column of video frames to be stripped: "))
+col = int(input("Enter column of video frames to be extracted: "))
 
 # framestep of timestack
 print("\nThe framestep determines the frequency of the timestack that is generated")
