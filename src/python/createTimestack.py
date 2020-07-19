@@ -3,8 +3,8 @@
 #########################################
 #          createTimestack.py           #
 #  Create timestack at given frequency  #
-#             Jeff Colvin               #
-#              July 2020                #
+#        Jeff Colvin, July 2017         #
+#          Updated: July 2020           #
 #########################################
 
 ##########################################################################
