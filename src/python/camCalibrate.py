@@ -3,8 +3,8 @@
 ##############################
 #      camCalibrate.py       #
 # Camera calibration program #
-#       Jeff Colvin          #
-#        July 2020           #
+#    Jeff Colvin, July2017   #
+#      Updated: July 2020    #
 ##############################
 
 ##########################################################################
