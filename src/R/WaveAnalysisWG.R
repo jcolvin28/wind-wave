@@ -4,6 +4,12 @@
 #          Updated July 2020              #
 ###########################################
 
+## tslabel specified the location and timestack number for a
+## particular field experiment, i.e., hm1 was specified hurricane
+## Matthew, timestack #1. The naming convention was also used for
+## wave gauge data which allowed verification of the wave properties
+## calculated from a timestack
+
 # timestack label
 tslabel <- 'hm1'
 
